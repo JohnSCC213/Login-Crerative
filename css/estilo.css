@@ -7,6 +7,7 @@ body {
     align-items: center;
     background: #f4f4f9;
     font-family: Arial, sans-serif;
+    background-image: url("../img/fondo1.jpg");
 }
 
 .login-container {
@@ -23,7 +24,7 @@ body {
 }
 
 .logo {
-    width: 100px; /* Ajusta este valor según el tamaño deseado para el logo */
+    width: 50px;
     height: auto;
 }
 
@@ -37,11 +38,11 @@ body {
 
 .input-group label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .input-group input {
-    width: 100%;
+    width: 90%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
