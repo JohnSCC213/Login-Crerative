@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo-container">
+            <img src="./img/user1.png" alt="Logo" class="logo"> <!-- Asegúrate de reemplazar 'logo.png' con la ruta de tu imagen -->
+        </div>
+        <form class="login-form">
+            <h2>Iniciar Sesión</h2>
+            <div class="input-group">
+                <label for="username">Usuario</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="forgot-password">
+                <a href="https://support.google.com/accounts/answer/7682439?hl=es-419">¿Has olvidado tu contraseña?</a>
+            </div>
+            <div class="terms-conditions">
+                <input type="checkbox" id="accept-terms" name="accept-terms" required>
+                <label for="accept-terms">
+                    Acepto los <a href="https://policies.google.com/terms?hl=es" target="_blank">términos y condiciones</a>
+                </label>
+            </div>
+            <button type="submit">Ingresar</button>
+            <p class="terms-description">
+                Al aceptar los términos y condiciones, usted se compromete a cumplir con nuestras políticas de uso y privacidad, las cuales incluyen, pero no se limitan a, la protección de sus datos personales y el uso responsable de nuestros servicios. Para más detalles, consulte los <a href="https://policies.google.com/terms?hl=es" target="_blank">términos y condiciones completos</a>.
+            </p>
+        </form>
+    </div>
+</body>
+</html>
